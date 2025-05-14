@@ -27,7 +27,7 @@ class BookingHomePage extends StatefulWidget {
 }
 
 class _BookingHomePageState extends State<BookingHomePage> {
-  final String baseUrl = 'http://localhost:3000/bookings';
+  final String baseUrl = 'https://your-api-hosting.vercel.app/bookings'; // or Railway/Render
   final TextEditingController userIdController = TextEditingController();
   DateTime? startTime;
   DateTime? endTime;
